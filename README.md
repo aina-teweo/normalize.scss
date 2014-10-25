@@ -1,25 +1,19 @@
-# normalize.css v3
+# normalize.scss v0.1.0
 
-Normalize.css is a customisable CSS file that makes browsers render all
-elements more consistently and in line with modern standards.
+Normalize.scss is the SCSS version of [normalize.css](http://necolas.github.io/normalize.css), a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.
 
-The project relies on researching the differences between default browser
-styles in order to precisely target only the styles that need or benefit from
-normalizing.
-
-[View the test file](http://necolas.github.io/normalize.css/latest/test.html)
+[View the normalize.css test file](http://necolas.github.io/normalize.css/latest/test.html)
 
 ## Install
 
-* [npm](http://npmjs.org/): `npm install --save normalize.css`
-* [Component(1)](https://github.com/component/component/): `component install necolas/normalize.css`
-* [Bower](http://bower.io/): `bower install --save normalize.css`
-* [Download](http://necolas.github.io/normalize.css/latest/normalize.css).
+* [npm](http://npmjs.org/): `npm install --save normalize.scss`
+* [Component(1)](https://github.com/component/component/): `component install guerrero/normalize.scss`
+* [Bower](http://bower.io/): `bower install --save normalize.scss`
+* Download: Go to [this link](https://raw.githubusercontent.com/guerrero/normalize.scss/master/normalize.scss), press right-click on the page and choose "Save as..."
 
-No other styles should come before Normalize.css.
+No other styles should come before Normalize.scss.
 
-It is recommended that you include the `normalize.css` file as untouched
-library code.
+It's recommendable to modify `normalize.scss` to suit it to your project
 
 ## What does it do?
 
@@ -79,11 +73,6 @@ showing past searches).
 Adding `border: 0` corrects an IE 8–11 bug where `color` (yes, `color`) is not
 inherited by `legend`.
 
-## Contributing
-
-Please read the CONTRIBUTING.md
-
 ## Acknowledgements
 
-Normalize.css is a project by [Nicolas Gallagher](https://github.com/necolas),
-co-created with [Jonathan Neal](https://github.com/jonathantneal).
+Normalize.scss is a project by [Alex Guerrero](https://github.com/guerrero) based on [normalize.css](http://necolas.github.io/normalize.css) from [Nicolas Gallagher](https://github.com/necolas), co-created with [Jonathan Neal](https://github.com/jonathantneal).
